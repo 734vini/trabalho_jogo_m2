@@ -51,6 +51,7 @@ int main() {
 	else if (escolha == 2) {
 		cout << "Ao checar as carruagens, você encontra uma adaga e segue caminho em busca de vingança." << endl << endl;
 		possuiAdaga = true;
+	}
 
 	cout << "Após algumas horas de caminhada, você e Celestria se aproximam de uma montanha onde têm algumas opções." << endl << endl;
 	cout << "[1] Contornar a motanha e seguir caminho" << endl;
@@ -124,6 +125,7 @@ int main() {
 			cout << "Você então leva a espada concedida pelo goblin, notando seu peso significativo." << endl << endl << endl;
 			possuiEspada = true;
 		}
+
 		else {
 			cout << "Goblin:" << endl;
 			cout << "- Você errou! Lhe darei apenas mais uma chance. A palavra possui 4 letras e começa com A." << endl << endl;
@@ -148,6 +150,7 @@ int main() {
 				cout << "============" << endl;
 				cout << "FIM DE JOGO" << endl;
 				cout << "============" << endl << endl;
+				system("pause > nul");
 				return 0;
 			}
 		}
@@ -184,6 +187,7 @@ int main() {
 			cout << "============" << endl;
 			cout << "FIM DE JOGO" << endl;
 			cout << "============" << endl << endl;
+			system("pause > nul");
 			return 0;
 		}
 
@@ -203,6 +207,7 @@ int main() {
 				cout << "============" << endl;
 				cout << "FIM DE JOGO" << endl;
 				cout << "============" << endl << endl;
+				system("pause > nul");
 				return 0;
 			}
 			else if (escolha == 2) {
@@ -222,6 +227,7 @@ int main() {
 					cout << "============" << endl;
 					cout << "FIM DE JOGO" << endl;
 					cout << "============" << endl << endl;
+					system("pause > nul");
 					return 0;
 				}
 				else if (escolha == 2) {
@@ -230,6 +236,7 @@ int main() {
 					cout << "============" << endl;
 					cout << "FIM DE JOGO" << endl;
 					cout << "============" << endl << endl;
+					system("pause > nul");
 					return 0;
 				}
 			}
@@ -237,10 +244,11 @@ int main() {
 
 		// Não pegou nenhum dos dois
 		else {
-			cout << "No momento final, ao tentar evitar o golpe fatal de Maliketh, ficou claro o quão despreparado você estava para enfrentar seu poder. A ausência dos itens de batalha cruciais ao longo da jornada selou seu destino, levando-o à morte." << endl << endl;
+			cout << "No momento final, ao tentar evitar o golpe fatal de Maliketh, ficou claro o quão despreparado você estava para enfrentar seu poder. A ausência dos itens de batalha cruciais ao longo da jornada selou seu destino, levando à morte." << endl << endl;
 			cout << "============" << endl;
 			cout << "FIM DE JOGO" << endl;
 			cout << "============" << endl << endl;
+			system("pause > nul");
 			return 0;
 		}
 	}
@@ -264,6 +272,7 @@ int main() {
 				cout << "============" << endl;
 				cout << "FIM DE JOGO" << endl;
 				cout << "============" << endl << endl;
+				system("pause > nul");
 				return 0;
 			}
 			else if (escolha == 2) {
@@ -283,6 +292,7 @@ int main() {
 					cout << "============" << endl;
 					cout << "FIM DE JOGO" << endl;
 					cout << "============" << endl << endl;
+					system("pause > nul");
 					return 0;
 				}
 				else if (escolha == 2) {
@@ -291,6 +301,7 @@ int main() {
 					cout << "============" << endl;
 					cout << "FIM DE JOGO" << endl;
 					cout << "============" << endl << endl;
+					system("pause > nul");
 					return 0;
 				}
 			}
@@ -303,15 +314,17 @@ int main() {
 			cout << "============" << endl;
 			cout << "FIM DE JOGO" << endl;
 			cout << "============" << endl << endl;
+			system("pause > nul");
 			return 0;
 		}
 
 		// Não pegou nenhum dos dois
 		else {
-			cout << "No momento final, ao tentar evitar o golpe fatal de Maliketh, ficou claro o quão despreparado você estava para enfrentar seu poder. A ausência dos itens de batalha cruciais ao longo da jornada selou seu destino, levando-o à morte." << endl << endl;
+			cout << "No momento final, ao tentar evitar o golpe fatal de Maliketh, ficou claro o quão despreparado você estava para enfrentar seu poder. A ausência dos itens de batalha cruciais ao longo da jornada selou seu destino, levando à morte." << endl << endl;
 			cout << "============" << endl;
 			cout << "FIM DE JOGO" << endl;
 			cout << "============" << endl << endl;
+			system("pause > nul");
 			return 0;
 		}
 	}
